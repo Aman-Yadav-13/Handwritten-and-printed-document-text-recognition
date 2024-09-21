@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Tesseract from 'tesseract.js';
 
-export default App = () => {
+const App = () => {
     const [imagePreview, setImagePreview] = useState(null);
     const [ocrText, setOcrText] = useState('');
     const [isProcessing, setIsProcessing] = useState(false);
@@ -65,3 +65,5 @@ export default App = () => {
         </div>
     );
 }
+
+export default App;
